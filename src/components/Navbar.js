@@ -6,9 +6,10 @@ const Navbar = () => {
     <div>
       <div>
         <center>
-          <nav className="navbar navbar-expand-lg bg-light">
+          <nav className="navbar navbar-expand-lg bg-info">
+          <div className="container">
             <div className="container-fluid">
-              <Link classNameName="navbar-brand" to="/">
+              {/* <Link classNameName="navbar-brand" to="/">
                 <img
                   src="/docs/5.2/assets/brand/bootstrap-logo.svg"
                   alt=""
@@ -17,7 +18,7 @@ const Navbar = () => {
                   classNameName="d-inline-block align-text-top"
                 />
                 Vinn Nduri
-              </Link>
+              </Link> */}
 
               <button
                 className="navbar-toggler"
@@ -62,6 +63,7 @@ const Navbar = () => {
                     </Link>
                   </li>
                 </ul>
+              </div>
               </div>
             </div>
           </nav>
