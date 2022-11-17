@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import About from "./About";
 
 const Home = () => {
   return (
@@ -19,13 +20,13 @@ const Home = () => {
             </div>
             <div class="col-lg-6">
               <p style={{ fontSize: 35 }} className="display-4 lh-1">
-                Hello,
+                Hello, I'm 
               </p>
               <h5
                 className="display-4 fw-bold lh-1 py-3"
                 style={{ color: " #be4d25" }}
               >
-                I'm Vinn
+                Vinn
               </h5>
               <p className="lead py-3">
                 <strong style={{ color: "#2596be" }}>Software Engineer </strong>{" "}
@@ -37,15 +38,16 @@ const Home = () => {
               </p>
 
               <p style={{ fontSize: 18 }}>
-                I am an ardent tech enthusiast (Full-stack web developer & UI/ UX Designer) with a
-                bias towards Back-end Development. I always strive for
-                excellence in delivering user-oriented satisfaction.
+                I am an ardent tech enthusiast (Full-stack web developer & UI/
+                UX Designer) with a bias towards Back-end Development. I always
+                strive for excellence in delivering user-oriented satisfaction.
               </p>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <Link
                   type="button"
                   class="btn btn-info btn-lg px-4 me-md-2"
-                  to="/about">
+                  to="/about"
+                >
                   About Me
                 </Link>
               </div>
@@ -53,6 +55,11 @@ const Home = () => {
           </div>
         </div>
       </main>
+      <center>
+        {" "}
+        <hr style={{ width: 1200 }} />
+      </center>
+      <About />
     </div>
   );
 };
